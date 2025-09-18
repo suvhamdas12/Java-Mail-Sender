@@ -15,7 +15,7 @@ public class EmailSendService {
                                 String body
     ) {
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("frmEmailp");
+        message.setFrom("frmEmail");
         message.setTo(toEmail);
         message.setText(body);
         message.setSubject(subject);
